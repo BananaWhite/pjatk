@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Consolas, sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-size: 17px;
+}
+.header {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+    height: 75px;
+}
+.homeImage {
+    height: 75px;
+    width: 75px;
+    float: left;
+}
+.homeImage:hover {
+    opacity: 0.5;
+}
+.comscience {
+    background-color: #58647c;
+    height: 100%;
+    margin: 0;
+    color: white;
+    line-height: 3.5em;
+    font-size: 20px;
+    transition: 0.3s;
+    width: 200px;
+    float: left;
+}
+.header a {
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    height: 100%;
+}
+
+.comscience:hover {
+    background-color: rgba(88,100,124, 0.5);
+    width: 250px;
+}
+.newmediarts {
+    background-color: #582434;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 1.75em;
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.newmediarts:hover {
+    background-color: rgba(88, 36, 52, 0.5);
+    width: 250px;
+    line-height: 3.5;
+}
+.interiordesign {
+    background-color: #c8243c;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 1.75em;
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.interiordesign:hover {
+    background-color: rgba(200,36,60, 0.5);
+    width: 250px;
+    line-height: 3.5em;
+}
+.infmanagement {
+    background-color: #e84c2c;
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 1.75em;
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    transition: 0.3s;
+}
+.infmanagement:hover {
+    background-color: rgba(232,76,44, 0.5);
+    width: 250px;
+}
+.jpnculture {
+    background-color: rgb(224,140,12);
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 3.5em;
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.jpnculture:hover {
+    background-color: rgba(224,140,12,0.5);
+    width: 250px;
+}
+.postgraduate {
+    background-color: rgb(96,124,76);
+    height: 100%;
+    text-align: center;
+    margin: 0;
+    color: white;
+    line-height: 1.75em;
+    font-size: 20px;
+    float: left;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.postgraduate:hover {
+    background-color: rgba(96,124,76,0.5);
+    width: 250px;
+}
+
+@media only screen and (max-width: 1280px) {
+    .comscience,
+    .jpnculture {
+        line-height: 5em;
+    }
+    .comscience,
+    .newmediarts,
+    .interiordesign,
+    .infmanagement,
+    .jpnculture,
+    .postgraduate {
+        width: 150px;
+        height: 100%;
+        font-size: 14px;
+    }
+    .newmediarts,
+    .interiordesign,
+    .infmanagement,
+    .postgraduate {
+        line-height: 2.5;
+    }
+    .comscience:hover,
+    .newmediarts:hover,
+    .interiordesign:hover,
+    .infmanagement:hover,
+    .jpnculture:hover {
+        width: 200px;
+        line-height: 5em;
+    }
+    .postgraduate:hover {
+        width: 200px;
+        line-height: 2.5em;
+    }
+}

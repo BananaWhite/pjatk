@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pl">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<div class="header" th:fragment="header">
+    <a href="#">
+        <img src="/static/images/pja.png" th:src="@{/static/images/pja.png}" alt="PJATK" class="homeImage">
+    </a>
+    <a th:href="@{#}" href="#" class="comscience" th:text="#{home.ComputerScience}"></a>
+    <a th:href="@{#}" href="#" class="newmediarts" th:text="#{home.NewMediaArts}"></a>
+    <a th:href="@{#}" href="#" class="interiordesign" th:text="#{home.InteriorDesign}"></a>
+    <a th:href="@{#}" href="#" class="infmanagement" th:text="#{home.InformationManagement}"></a>
+    <a th:href="@{#}" href="#" class="jpnculture" th:text="#{home.CultureOfJapan}"></a>
+    <a th:href="@{#}" href="#" class="postgraduate" th:text="#{home.PostGraduateStudiesAndCourses}"></a>
+    <p class="loginbtn" th:text="#{home.login}"></p>
+</div>
+
+</body>
+</html>
