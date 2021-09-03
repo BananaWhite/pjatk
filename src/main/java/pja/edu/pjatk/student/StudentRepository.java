@@ -19,5 +19,5 @@ public interface StudentRepository extends Repository<Student, Long> {
 
     @Query(value = "SELECT * FROM student s WHERE s.iemail = :iemail AND s.password = :password", nativeQuery = true)
     @Transactional(readOnly = true)
-    Student findByEmailAndPassword(@Param("interalEmail") String iemail, @Param("password") String password);
+    Student findByEmailAndPassword(@Param("iemail") String iemail, @Param("password") String password);
 }
