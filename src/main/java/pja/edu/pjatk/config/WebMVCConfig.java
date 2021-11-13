@@ -37,6 +37,7 @@ public class WebMVCConfig implements WebMvcConfigurer, ApplicationContextAware {
             "classpath:/META-INF/resources/", "classpath:/resources/",
             "classpath:/static/", "classpath:/public" };
 
+
     @Override
     public void setApplicationContext(@NotNull ApplicationContext applicationContext) {
         this.applicationContext = applicationContext;
